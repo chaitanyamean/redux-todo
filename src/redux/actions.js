@@ -8,4 +8,12 @@ export const addTodos =  text => ({
 })
 
 
+export const REMOVE_TODO = 'REMOVE_TODO';
+
+export const removeTodos = text => ({
+    type: REMOVE_TODO,
+    payload: {text}
+})
+
+// 
 // export const removeTodo
